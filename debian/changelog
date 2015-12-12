@@ -1,6 +1,8 @@
-kodi (2:14.0~git20141010-1) trusty; urgency=low
+$pkgname ($pkgver) $dist_rel; urgency=low
 
-  * initial Kodi release
+  * Packaged for SteamOS Brewmaster
+  * Release tag: $pkgver
+  * See: https://github.com/xbmc/xbmc/releases
+  * Upstream source: https://github.com/xbmc/xbmc
 
- -- wsnipex <wsnipex@kodi.tv>  Tue, 29 Jan 2013 20:13:05 -0500
-
+	 -- $uploader  $date_long
