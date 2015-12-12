@@ -5,4 +5,4 @@ $pkgname ($pkgver) $dist_rel; urgency=low
   * See: https://github.com/xbmc/xbmc/releases
   * Upstream source: https://github.com/xbmc/xbmc
 
-	 -- $uploader  $date_long
+  -- $uploader  $date_long
