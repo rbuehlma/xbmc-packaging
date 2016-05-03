@@ -143,7 +143,7 @@ Suggests: kodi-pvr-mythtv,
          kodi-audioencoder-vorbis,
          kodi-audioencoder-flac,
          kodi-audioencoder-lame
-Provides: kodi-standalone, kodi-data, kodi-skin-confluence, xbmc, xbmc-standalone, xbmc-data, xbmc-skin-confluence
+Provides: kodi-standalone, kodi-data, kodi-skin-estuary, xbmc, xbmc-standalone, xbmc-data, xbmc-skin-estouchy
 Replaces: xbmc (<< 2:14.0~git20141019), xbmc-standalone, xbmc-data, xbmc-skin-confluence
 Breaks: xbmc (<< 2:14.0~git20141019), xbmc-standalone, xbmc-data, xbmc-skin-confluence
 Description: Kodi Media Center (arch-independent data package)
