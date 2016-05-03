@@ -4,6 +4,7 @@ usr/share/kodi
 usr/share/xbmc
 usr/share/icons
 usr/share/applications
-usr/share/kodi/addons/skin.confluence
+usr/share/kodi/addons/skin.estuary
+usr/share/kodi/addons/skin.estouchy
 usr/bin/kodi-standalone
 usr/share/xsessions
