@@ -1,11 +1,9 @@
-usr/include/kodi/xbmc_addon_cpp_dll.h
-usr/include/kodi/xbmc_addon_dll.h
-usr/include/kodi/xbmc_addon_types.h
+usr/include/kodi/xbmc_addon_*
 usr/include/kodi/xbmc_codec_types.h
-#usr/include/kodi/xbmc_stream_utils.hpp
-usr/include/kodi/libXBMC_addon.h
-usr/include/kodi/libXBMC_codec.h
-usr/include/kodi/libKODI_guilib.h
-usr/include/kodi/libKODI_adsp.h
+usr/include/kodi/kodi_vfs_types.h
+usr/include/kodi/libXBMC_*
+usr/include/kodi/libKODI_*
+usr/include/kodi/IFileTypes.h
+usr/include/kodi/DVDDemuxPacket.h
 usr/include/xbmc
 usr/lib/kodi/*.cmake

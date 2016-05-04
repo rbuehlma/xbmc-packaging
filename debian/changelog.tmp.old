@@ -1,14 +1,4 @@
-kodi (2:17.0~git20160501.0200-a09f146-0vivid) vivid; urgency=high
-
-  [Garrett Brown]
-   * Add peripehral.joystick as "optional" add-on in addon-manifest.xml
-
-  [Garrett Brown]
-   * [addondb] Allow "optional" add-ons in addon-manifest.xml
-
-  [Sam Spilsbury]
-   * cpluff: Build ExternalProject in source
-
+kodi (2:13.0~git20121115.1002-beta1-0dist) dist; urgency=high
 
   [h.udo]
    * [cmake][linux] Insert PulseAudio block into kodi-standalone
@@ -995,7 +985,7 @@ kodi (2:17.0~git20160501.0200-a09f146-0vivid) vivid; urgency=high
    * [win32] cleanup old exclude files
 
   [Martijn Kaijser]
-   * [win32] drop VS2008 C++ revivid package
+   * [win32] drop VS2008 C++ redist package
 
   [mapfau]
    * Add TranslateSpecialPath to libAddon_helper interface
@@ -1713,7 +1703,7 @@ kodi (2:17.0~git20160501.0200-a09f146-0vivid) vivid; urgency=high
    * windowing/X11/WinSystemX11GL*Context: use C++11 initializers
 
   [Martijn Kaijser]
-   * [win32] update VC revivid install options
+   * [win32] update VC redist install options
 
   [Martijn Kaijser]
    * [win32] Building binary add-ons in not mandatory so don't fail on it
@@ -5513,7 +5503,7 @@ kodi (2:17.0~git20160501.0200-a09f146-0vivid) vivid; urgency=high
    * [codeshuffle] - moved MessagePrinter.h/.cpp
 
   [Martijn Kaijser]
-   * [win32] add VS2015 revivid files to installer
+   * [win32] add VS2015 redist files to installer
 
   [Martijn Kaijser]
    * [pvr] fix missing header label on clean EPG
