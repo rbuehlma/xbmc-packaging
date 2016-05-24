@@ -35,6 +35,7 @@ Depends: kodi-bin (>= ${source:Version}),
          libgnutls30 | libgnutls-deb0-28 | libgnutls28 | libgnutls26,
          libxslt1.1,
          libyajl2,
+         libegl-nvidia0,
          ${python:Depends},
          ${misc:Depends}
 Recommends: libvdpau1,
