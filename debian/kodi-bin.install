@@ -1,5 +1,4 @@
-usr/lib/kodi/system
-usr/lib/kodi/addons
-usr/lib/kodi/kodi-xrandr
-usr/lib/kodi/kodi.bin
-usr/lib/xbmc
+usr/lib/x86_64-linux-gnu/kodi/system
+usr/lib/x86_64-linux-gnu/kodi/addons
+usr/lib/x86_64-linux-gnu/kodi/kodi-xrandr
+usr/lib/x86_64-linux-gnu/kodi/kodi.bin

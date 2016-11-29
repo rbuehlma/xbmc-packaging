@@ -1,9 +1,12 @@
 usr/include/kodi/xbmc_addon_*
 usr/include/kodi/xbmc_codec_types.h
 usr/include/kodi/kodi_vfs_types.h
+usr/include/kodi/kodi_vfs_utils.hpp
 usr/include/kodi/libXBMC_*
 usr/include/kodi/libKODI_*
 usr/include/kodi/IFileTypes.h
 usr/include/kodi/DVDDemuxPacket.h
-usr/include/xbmc
-usr/lib/kodi/*.cmake
+usr/include/kodi/kodi_peripheral_callbacks.h
+usr/include/kodi/kodi_peripheral_dll.h
+usr/include/kodi/kodi_peripheral_utils.hpp
+usr/include/kodi/kodi_peripheral_types.h
