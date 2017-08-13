@@ -114,7 +114,7 @@ Vcs-Git: git://github.com/rbuehlma/xbmc-packaging.git
 Vcs-Browser: https://github.com/rbuehlma/xbmc-packaging
 
 Package: kodi
-Architecture: all
+Architecture: amd64
 Depends: kodi-bin (>= ${source:Version}),
          kodi-bin (<< ${source:Version}.1~),
          curl,
@@ -183,7 +183,7 @@ Description: Kodi Media Center (arch-independent data package)
  working Kodi.
 
 Package: kodi-bin
-Architecture: i386 amd64 armhf
+Architecture: amd64
 Depends: ${shlibs:Depends},
          ${misc:Depends}
 Recommends: ${shlibs:Recommends}

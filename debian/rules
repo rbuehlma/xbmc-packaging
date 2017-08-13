@@ -75,8 +75,11 @@ override_dh_clean:
 	debian/rules $(INPUT_FILES)
 
 override_dh_auto_configure: 
+	make -C $(CURDIR)/tools/depends/target/rapidjson/ PREFIX=usr/
+	make -C $(CURDIR)/tools/depends/target/libfmt/ PREFIX=usr/
 	mkdir kodi-build
-	cd kodi-build && cmake -DCMAKE_INSTALL_PREFIX=/usr -DLIBDVDNAV_URL=`ls -1 $(CURDIR)/tools/depends/target/libdvdnav/libdvdnav-*.tar.gz` -DLIBDVDREAD_URL=`ls -1 $(CURDIR)/tools/depends/target/libdvdread/libdvdread-*.tar.gz` -DLIBDVDCSS_URL=`ls -1 $(CURDIR)/tools/depends/target/libdvdcss/libdvdcss-*.tar.gz` -DFFMPEG_URL=`ls -1 $(CURDIR)/tools/depends/target/ffmpeg/ffmpeg-*.tar.gz` -DCMAKE_INSTALL_PREFIX=/usr -DENABLE_CCACHE=OFF -DENABLE_INTERNAL_CROSSGUID=OFF ../project/cmake/ && cmake --build . -- VERBOSE=1 -j1
+	cd kodi-build
+	cd kodi-build && cmake -DCMAKE_PREFIX_PATH="$(CURDIR)/tools/depends/target/rapidjson/native/build/usr/;$(CURDIR)/tools/depends/target/libfmt/native/build/usr/" -DCMAKE_INSTALL_PREFIX=/usr -DLIBDVDNAV_URL=`ls -1 $(CURDIR)/tools/depends/target/libdvdnav/libdvdnav-*.tar.gz` -DLIBDVDREAD_URL=`ls -1 $(CURDIR)/tools/depends/target/libdvdread/libdvdread-*.tar.gz` -DLIBDVDCSS_URL=`ls -1 $(CURDIR)/tools/depends/target/libdvdcss/libdvdcss-*.tar.gz` -DFFMPEG_URL=`ls -1 $(CURDIR)/tools/depends/target/ffmpeg/ffmpeg-*.tar.gz` -DCMAKE_INSTALL_PREFIX=/usr -DENABLE_CCACHE=OFF -DENABLE_INTERNAL_CROSSGUID=OFF ../ && cmake --build . -- VERBOSE=1 -j1
 
 override_dh_auto_install:
 	cd kodi-build && $(MAKE) install DESTDIR=$(CURDIR)/debian/tmp

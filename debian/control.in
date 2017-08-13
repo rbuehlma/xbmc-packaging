@@ -78,7 +78,7 @@ Description: Kodi Media Center (arch-independent data package)
  working Kodi.
 
 Package: kodi-bin
-Architecture: i386 amd64 armhf
+Architecture: amd64
 Depends: ${shlibs:Depends},
          ${misc:Depends}
 Recommends: ${shlibs:Recommends}
