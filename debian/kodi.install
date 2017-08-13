@@ -2,7 +2,6 @@ usr/bin/kodi
 usr/share/kodi
 usr/share/icons
 usr/share/applications
-usr/share/kodi/addons/skin.estuary
 usr/bin/kodi-standalone
 usr/share/xsessions
 usr/share/doc/kodi
